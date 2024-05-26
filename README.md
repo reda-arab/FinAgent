@@ -5,6 +5,7 @@ In this repositery we define a playground for several AI agents to trade betwen 
 An extension can be made in which one person could play a trading game vs LLM Agents. 
 
 **Rules** 
+
 We define n assets and m llm agents.
 
 The game is played in round, at each round each LLM agent knows its inventory and past prices streamed by other agents.
