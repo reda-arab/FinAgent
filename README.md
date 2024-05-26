@@ -6,19 +6,22 @@ An extension can be made in which one person could play a trading game vs LLM Ag
 
 **Rules** 
 
-We define n assets and m llm agents.
+- We define n assets and m llm agents.
 
-The game is played in round, at each round each LLM agent knows its inventory and past prices streamed by other agents.
+- The game is played in round, at each round each LLM agent knows its inventory and past prices streamed by other agents.
 Using this information each agents stream prices they are willing to buy and sell each asset.
 Once each agent is aware of other agents prices each agent propose a quantity for each assets they want to buy and sell from other agents.
 
-After each round agents update their cash and inventory and another round is kicked off.
+- After each round agents update their cash and inventory and another round is kicked off.
+
+**Objective**
 
 The goal of this project is to see if LLM agents framed as traders can take rationnal trading decisions and end up maximizing their profits.
 
 <img width="1161" alt="image" src="https://github.com/reda-arab/FinAgent/assets/59368670/7915c446-c2c0-4b9b-bdc3-7a1313a6039d">
 
-Setting Up FinAgent:
+
+**Setting Up FinAgent**
 
 pip install -r requirements.txt
 
